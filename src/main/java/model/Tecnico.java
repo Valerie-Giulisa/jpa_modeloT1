@@ -44,6 +44,11 @@ public class Tecnico {
 	}
 	
 	}
+	
+	@Override
+	public String toString() {
+		return nombre;
+	}
 }
 
 
