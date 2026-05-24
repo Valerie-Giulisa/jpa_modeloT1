@@ -7,6 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,7 +17,7 @@ import lombok.Setter;
 @Table(name = "tbl_cliente")
 @Getter
 @Setter
-
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Cliente {
 	
 	@Id
